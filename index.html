@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css" />
+  <title>Expense Tracker</title>
+</head>
+
+<body>
+
+  <header>
+    <img src="./images/expense tracker-logos_transparent.png" alt="Expense Tracker Logo">
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact Us</a>
+      <a href="expense.html">Tracker</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div id="image-slider-container">
+      <div id="image-slider">
+        <div class="slider-content">
+          <img class="slider-image" src="./images/image (1).png" alt="Slider Image 1">
+          <img class="slider-image" src="./images/image (2).png" alt="Slider Image 2">
+          <img class="slider-image" src="./images/image.png" alt="Slider Image 2">
+        </div>
+        <button class="arrow" id="prev">&lt;</button>
+        <button class="arrow" id="next">&gt;</button>
+      </div>
+      <div class="slider-text">
+        <h2 class="m_left">Welcome to Expense Tracker</h2>
+        <p class="text-justify">we understand the importance of managing your finances effectively. Our Expense Tracker
+          is designed to simplify your financial journey by providing a user-friendly platform to monitor and analyze
+          your expenditures.
+
+          Key Features:
+
+          Effortless Tracking: Easily record and categorize your expenses, whether it's daily purchases, bills, or any
+          other financial transactions.
+
+          Insightful Reports: Gain valuable insights into your spending habits through detailed reports and
+          visualizations. Identify trends, set budgets, and make informed financial decisions.
+
+          User-Friendly Interface: Our intuitive interface ensures a seamless experience for users of all levels. No
+          more hassle—just smart and efficient expense tracking.
+
+          Why Choose Us:
+
+          Security First: Your financial data is important, and we prioritize its security. Our Expense Tracker employs
+          state-of-the-art security measures to safeguard your information.
+
+          Accessibility: Access your expense data anytime, anywhere. Our platform is designed to be responsive, allowing
+          you to stay in control of your finances on the go.
+
+          Personalized Experience: Tailor your Expense Tracker to fit your unique financial goals. Customize categories,
+          set reminders, and take charge of your financial well-being.
+
+          Whether you're a seasoned financial expert or just starting on your budgeting journey, our Expense Tracker is
+          here to support you. Start taking control of your finances today!
+
+        </p>
+        <a class="event-button" href="expense.html">Expense</a>
+      </div>
+    </div>
+
+  </section>
+  <section id="features">
+    <div class="feature-box">
+      <h2>$ Income</h2>
+      <div class="badge"></div>
+      <span class="padding-left" id="income"></span>
+    </div>
+
+    <div class="feature-box">
+      <h2>$ Expense</h2>
+      <div class="badge"></div>
+      <span class="padding-left" id="expense"></span>
+    </div>
+    <div class="feature-box">
+      <h2>$ Balance</h2>
+      <div class="badge"></div>
+      <span class="padding-left" id="balance"></span>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Expense Tracker. All rights reserved.</p>
+  </footer>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
